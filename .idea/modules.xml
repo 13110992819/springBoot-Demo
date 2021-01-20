@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-es/demo-es.iml" filepath="$PROJECT_DIR$/demo-es/demo-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-consumer/mq-consumer.iml" filepath="$PROJECT_DIR$/mq-consumer/mq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-producer/mq-producer.iml" filepath="$PROJECT_DIR$/mq-producer/mq-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parent.iml" filepath="$PROJECT_DIR$/.idea/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectA/projectA.iml" filepath="$PROJECT_DIR$/projectA/projectA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectB/projectB.iml" filepath="$PROJECT_DIR$/projectB/projectB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" />
+    </modules>
+  </component>
+</project>
