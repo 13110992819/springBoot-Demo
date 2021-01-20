@@ -1,0 +1,47 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: ribbon-consumer
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.10.32:9300,192.168.10.35:9300,192.168.10.36:9300
+      cluster-name: elasticsearch
+      connect-timeout: 10000
+      xpack:
+        user: elastic
+        password: ZVVVWMUxycFHLXGvJrV8
+    mongodb:
+      uri: mongodb://192.168.10.19/db_xbb_pro
+  datasource:
+    url: jdbc:mysql://192.168.10.14:3306/db_xbb_es7?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false&useAffectedRows=true
+    username: ms2
+    password: Ms2.com.cn
+    driver-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1001/eureka/
+  instance:
+    prefer-ip-address: true
+#启用熔断器
+feign:
+  hystrix:
+    enabled: true
+#设置熔断器超时时间
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=6000
+#spring.cloud.loadbalancer.retry.enabled=true
+
+#配置ribbon的超时时间
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+
+management:
+  health:
+    elasticsearch:
+      enabled: false
+

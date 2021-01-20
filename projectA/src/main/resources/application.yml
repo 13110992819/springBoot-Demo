@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: register-customer
+#  cloud:
+#    stream:
+#      bindings:
+#        messageChannel:
+#          destination: test2
+#          binder: defaultRabbit
+server:
+  port: 8083
+  ##向注册中心注册自己，集群部署时可以使用逗号隔开
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1001/eureka/
+  instance:
+    prefer-ip-address: true
+  #eureka.instance.hostname=
+  #spring.cloud.consul.host=localhost
+  #spring.cloud.consul.port=8500
+
+  #开放所有页面节点  默认只开启了health、info两个节点
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: *
+

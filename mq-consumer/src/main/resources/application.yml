@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: mq-consumer
+  rabbitmq:
+    host: 121.196.236.164
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: trade
+#          binder: defaultRabbit
+          group: oms
+#      rabbit:
+#        bindings:
+#          input:
+#            consumer:
+#              binding-routing-key: trade
+
+server:
+  port: 8086
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1001/eureka/
+
+
+#spring.cloud.stream.bindings.output.content-type=application/json
+#spring.cloud.stream.bindings.output.destination=trade
+#  #spring.cloud.stream.bindings.output.binder=defaultRabbit
+#spring.cloud.stream.bindings.output.group=trade
+#spring.cloud.stream.rabbit.bindings.output.consumer.binding-routing-key=order

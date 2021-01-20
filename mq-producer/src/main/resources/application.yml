@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: mq-producer
+  rabbitmq:
+    host: 121.196.236.164
+    port: 5672
+    password: guest
+    username: guest
+    virtual-host: /
+
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: trade
+#          binder: defaultRabbit
+      rabbit:
+        bindings:
+          output:
+            producer:
+              routing-key-expression: '''oms'''
+server:
+  port: 8085
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1001/eureka/
+
+
