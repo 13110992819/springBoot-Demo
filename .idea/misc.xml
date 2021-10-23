@@ -21,6 +21,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/elastic-job/pom.xml" />
+        <option value="$PROJECT_DIR$/testRun/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">

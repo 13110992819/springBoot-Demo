@@ -19,6 +19,8 @@
         <module>projectA</module>
         <module>projectB</module>
         <module>mq-producer</module>
+<!--        <module>testRun</module>-->
+        <module>elastic-job2</module>
     </modules>
 
 
@@ -35,6 +37,18 @@
         <java.version>1.8</java.version>
         <spring.cloud.version>Hoxton.SR8</spring.cloud.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.49</version>
+        </dependency>
+    </dependencies>
 
     <repositories>
         <repository>

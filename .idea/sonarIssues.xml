@@ -3,6 +3,16 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/check-style/check-style.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/consumer/pom.xml">
           <value>
             <set />
@@ -59,6 +69,76 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/demo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/demo/src/main/java/com/example/demo/TestClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/demo/src/test/java/com/example/demo/MainTestClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/demo/src/test/java/com/example/demo/Parent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job-test/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job/src/main/java/com/test/elastic/application/TestApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job/src/main/java/com/test/elastic/job/TestJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job/src/main/resources/job.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job2/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job2/src/main/java/com/test/elastic/job2/ElasticJob2Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job2/src/main/java/com/test/elastic/job2/TestJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job2/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elastic-job2/src/main/resources/logback-spring.xml">
           <value>
             <set />
           </value>
@@ -148,7 +228,57 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-db-sql/V4.34.0/business_rule_filter_condition.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-model-paas/src/main/java/com/xbongbong/paas/model/PaasProcessDataModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-model-paas/src/main/java/com/xbongbong/paas/model/impl/PaasProcessDataModelImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-service-main/src/main/java/com/xbongbong/paas/help/menu/InitMenuHelp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-service-main/src/main/java/com/xbongbong/paas/service/impl/AutomaticallyAssignedServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-service-main/src/main/java/com/xbongbong/paas/service/impl/PaasFormDataServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-service-main/src/main/java/com/xbongbong/saas/service/impl/CommonServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-service-main/src/main/java/com/xbongbong/saas/service/impl/PurchaseServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro/xbb-pro/pro-web-pc/src/test/java/com/xbongbong/pro/service/menu/AppAndMenuInitServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../testApp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../weixin-saas/pom.xml">
           <value>
             <set />
           </value>

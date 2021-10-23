@@ -14,7 +14,7 @@ public class TestClass {
     
     }
     
-    public void test(){
+    public void testBatchInsertData(){
     
     }
 }

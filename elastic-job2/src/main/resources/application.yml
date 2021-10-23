@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gateway
+
+server:
+  port: 9099
+logging:
+  level:
+    root: debug
+    io.lettuce.core.protocol.RedisStateMachine: info

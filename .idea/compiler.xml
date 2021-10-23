@@ -14,13 +14,17 @@
         <module name="eureka" />
         <module name="zuul-gateway" />
         <module name="mq-producer" />
-        <module name="mq-consumer" />
         <module name="demo-es" />
+        <module name="mq-consumer" />
+        <module name="elastic-job2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="demo-es" target="1.8" />
+      <module name="elastic-job" target="1.8" />
+      <module name="elastic-job-test" target="1.8" />
+      <module name="elastic-job2" target="8" />
       <module name="elasticsearch" target="8" />
       <module name="eureka" target="1.8" />
       <module name="gateway" target="1.8" />
@@ -37,6 +41,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="demo-es" options="-parameters" />
+      <module name="elastic-job" options="-parameters" />
+      <module name="elastic-job-test" options="-parameters" />
+      <module name="elastic-job2" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
@@ -45,6 +52,7 @@
       <module name="projectA" options="-parameters" />
       <module name="projectB" options="-parameters" />
       <module name="register-customer" options="-parameters" />
+      <module name="testRun" options="-parameters" />
       <module name="zuul-gateway" options="-parameters" />
     </option>
   </component>

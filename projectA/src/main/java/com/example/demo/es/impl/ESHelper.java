@@ -19,7 +19,6 @@ import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.script.Script;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
-import org.springframework.data.domain.Page;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
@@ -31,15 +30,6 @@ import java.util.Map;
 
 import static org.elasticsearch.index.query.QueryBuilders.*;
 
-/**
- * 应用模块名称<p>
- * 代码描述<p>
- * Company: 逍邦网络科技有限公司<p>
- *
- * @author chenshan
- * @version v1.0
- * @since 2019-07-24 16:05
- */
 @Slf4j
 @Component
 public class ESHelper {

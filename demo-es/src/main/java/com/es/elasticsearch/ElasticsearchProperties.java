@@ -16,7 +16,7 @@ import java.util.Map;
  * @author Mohsin Husen
  * @since 1.1.0
  */
-@ConfigurationProperties(prefix = "spring.data.elasticsearch")
+//@ConfigurationProperties(prefix = "spring.data.elasticsearch")
 @ToString
 @Getter
 @Setter
